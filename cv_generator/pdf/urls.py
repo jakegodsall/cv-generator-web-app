@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import index
+from .views import create_profile
 
 urlpatterns = [
-    path('', index, name="index")
+    path('create', create_profile, name="create_profile")
 ]
